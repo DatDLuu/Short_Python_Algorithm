@@ -1,3 +1,4 @@
+# friendly reminder to msg that was not replied in >= 2days
 def messageReminder(sender, receiver, dates):
     from datetime import datetime,timedelta
     num_msg = len(dates)
